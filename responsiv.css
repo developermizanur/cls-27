@@ -1,0 +1,199 @@
+/* defult-css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* responsiv */
+/* header-section */
+@media all and (max-width: 1200px) {
+    .header .header-right .menu ul {
+        text-align: center;
+        margin-right: 20px;
+    }
+    .service-section .service-head p {
+        font-size: 18px;
+    }
+    .service-section .service-item {
+        width: 18%;
+    }
+    .service-section .service-head {
+        margin-right: 183px;
+    }
+    .service-section .service-item h3 {
+        font-size: 19px;
+    }
+    .service-section .service-item p {
+        font-size: 17px;
+    
+    }
+}
+@media all and (max-width: 992px) {
+    .header .header-right .menu ul {
+        text-align: left;
+    }
+
+    .baner-section .banner {
+        padding-right: 367px;
+    }
+    .service-section .service-head h2 {
+        font-size: 36px;
+    }
+
+    .service-section .service-head p {
+        font-size: 13px;
+    }
+
+    .service-section .service-head {
+        margin-right: 457px;
+    }
+    .service-section .service-item {
+        width: 14%;
+    }
+    
+    .about-section .about {
+        margin-top: 80px;
+        margin-right: 240px;
+    }
+    .about-section .about p {
+        font-size: 16px;
+    }
+    .about-section .about-head .about-img {
+        width: 35%;
+    }
+    .about-section .about-box {
+        width: 308px;
+        margin-left: 19px;
+    }
+    .about-section .about-box .content p {
+        font-size: 10px;
+    }
+    .contact-section .contact-list {
+        width: 25%;
+
+    }
+    .contact-section .contact {
+        margin-right: 215px;
+    }
+    .contact-section .contact h2 {
+        font-size: 34px;
+    }
+    .contact-section .contact p {
+        font-size: 15px;
+    }
+    .contact-section .contact-list {
+        width: 20%;
+    }
+    .contact-section .contact {
+        margin-right: 532px;
+    }
+@media all and (max-width: 768px) {
+    .header .header-left {
+        float: none;
+        width: 50%;
+    }
+    .header .header-right {
+        margin-left: 123px;
+    }
+
+
+    .baner-section .banner h2 {
+        font-size: 34px;
+    }   
+    .baner-section .banner {
+        padding-right: 630px;
+    }
+    .service-section .service-head {
+        margin-right: 678px;
+    }
+    .service-section {
+        height: 838px;
+       
+    }
+    .service-section .service-item {
+        width: 50%;
+    }
+    .service-section .service-item p {
+        font-size: 15px;
+    }
+    .about-section .about {
+        margin-right: 681px;
+    }
+    .about-section .about-head .about-img {
+        width: 50%;
+    }
+    .about-section .about-head .about-img {
+        float: none;
+    
+    }
+
+
+    .about-section .about-box {
+        text-align: center;
+        margin-left: 165px;
+    }
+}
+@media all and (max-width: 580px) {
+    .header .header-left {
+        float: none;
+        width: 35%;
+    }
+    .header .header-right {
+        margin-left: 16px;
+    }
+}
+@media all and (max-width: 420px) {
+    .header .header-left {
+        float: none;
+        width: 25%;
+    }
+    .header .header-right {
+        margin-left: 7px;
+    }
+    .header .header-right .menu ul li a {
+      
+        margin-right: 3px;
+    }
+    .baner-section .banner {
+        margin-right: 261px;
+    }
+
+    .baner-section .banner p {
+        font-size: 12px;
+        margin: 6px;
+    }
+    .baner-section .banner h2 {
+        font-size: 25px;
+    }
+    .baner-section .banner {
+        margin-right: 205px;
+    }
+    .service-section .service-head {
+        margin-right: 935px;
+    }
+    .service-section .service-item {
+        width: 25%;
+    }
+    .about-section .about-box {
+        text-align: center;
+        margin-left: 6px;
+    }
+    .about-section .about-head .about-img {
+        width: 25%;
+    }
+}
+@media all and (max-width: 320px) {
+    .header .header-right .menu ul li a {
+        margin-right: 2px;
+        font-size: 10px;
+    }
+    .header .header-left .header-logo {
+        height: 23px;
+        line-height: 50px;
+        font-size: 7px;
+    }
+    .baner-section .banner {
+        margin-right: 329px;
+    }
+}
+
